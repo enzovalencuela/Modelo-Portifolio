@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+body {
+  margin: 0 15%;
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: center;
+}
+
+#header {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  text-decoration-line: underline;
+  color: #070f18;
+}
+
+#menu {
+  text-align: right;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #070f18;
+  }
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#buttonCta {
+  background: #1f7cff;
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  padding: 10px 25px;
+}
+
+#headerCta {
+  & h1 {
+    font-weight: bold;
+    font-size: 45px;
+    color: #000;
+  }
+  & p {
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+  }
+}
+
+#headerImg {
+  margin-left: 42px;
+  & img {
+    width: 80%;
+    border-radius: 60px;
+  }
+}
+
+.headerLogo {
+  text-align: center;
+}
+
+#headerClients {
+  padding-block: 30px;
+}
+
+#headerClientText {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #070f18;
+}
+
+h2.red {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 24px;
+
+  color: #f75c4e;
+}
+
+h1.black {
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 54px;
+  color: #000;
+  margin-top: 0;
+}
+
+p.gray {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #575455;
+}
+
+#apple {
+  width: 100px;
+}
+
+#slack {
+  width: 100px;
+}
+
+#spotify {
+  width: 100px;
+}
+
+.textCenter {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  & i {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+#services .textCenter {
+  & h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #070f18;
+  }
+
+  & p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #575455;
+  }
+}
+
+#contact {
+  margin-top: 100px;
+}
+
+#contactImg img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+#contactForm {
+  margin-left: 75px;
+  text-align: left;
+
+  & input {
+    background: #f5f6fb;
+    border-radius: 50px;
+    border: none;
+    width: 70%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 30px;
+    color: #575455;
+  }
+
+  & button {
+    background: #1f7cff;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    color: #fff;
+  }
+}
+
+#portifolioTitle {
+  margin-top: 150px;
+}
+
+.portifolioImg {
+  padding: 20px;
+  & img {
+    width: 100%;
+    border-radius: 14px;
+  }
+}
